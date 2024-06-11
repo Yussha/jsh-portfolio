@@ -40,7 +40,7 @@ export default function Portfolio() {
                 </p>
 
                 {project.useTechnology.map((useTech) => (
-                  <ul className="flex gap-x-2 mb-4">
+                  <ul className="flex gap-x-2 mb-4" key={project.id}>
                     <li>
                       <img className="w-4" src={useTech.tech1} alt="" />
                     </li>
