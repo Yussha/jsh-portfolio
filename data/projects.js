@@ -25,8 +25,8 @@ export const projects = [
         tech2: tailwind,
       },
     ],
-    urlRepo: "https://yussha.github.io/jsh-portfolio/",
-    urlWebsite: "https://github.com/Yussha/jsh-portfolio",
+    urlRepo: "https://github.com/Yussha/jsh-portfolio",
+
 
   },
   {

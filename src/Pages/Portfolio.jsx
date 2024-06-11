@@ -57,12 +57,17 @@ export default function Portfolio() {
                 ))}
 
                 <div className="flex gap-x-4">
-                  <button
-                    onClick={() => handleOpenWebsite(project.urlWebsite)}
-                    className={`${styles.viewProjectBtn} rounded-lg p-2 font-bold`}
-                  >
-                    Take a look
-                  </button>
+                  {project.id === 1 ? (
+                    <a href="#home" className={`${styles.viewProjectBtn} rounded-lg p-2 font-bold`}>Take a look</a>
+                  ) : (
+                    <button
+                      onClick={() => handleOpenWebsite(project.urlWebsite)}
+                      className={`${styles.viewProjectBtn} rounded-lg p-2 font-bold`}
+                    >
+                      Take a look
+                    </button>
+                  )}
+
                   <button
                     onClick={() => handleOpenRepo(project.urlRepo)}
                     className={`${styles.viewProjectBtn} rounded-lg p-2 font-bold`}
