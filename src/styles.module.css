@@ -1,0 +1,40 @@
+.navBar {
+  margin: 0px 0px;
+  /* background-color: blue; */
+}
+
+.navLogo:hover {
+  color: #9dde8b;
+}
+
+.backgroundGlass {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10.5px);
+  -webkit-backdrop-filter: blur(10.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.btnBg {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10.5px);
+  -webkit-backdrop-filter: blur(10.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: 0.3s ease-in-out;
+}
+
+.navLink {
+  transition: 0.2s ease-in-out;
+}
+
+.navLink:hover {
+  color: #9dde8b;
+}
+
+.btnBg:hover {
+  background-color: #9dde8b;
+  color: #141515;
+}
