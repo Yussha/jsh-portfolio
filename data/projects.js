@@ -1,14 +1,14 @@
 export const projects = [
   {
     id: 1,
-    img: "../../assets/RentalCarimg.jpg",
-    projectName: "RentalCar Booking",
+    img: "../../assets/jshportfolio.jpg",
+    projectName: "Official Jsh Portfolio",
     details:
-      "This rental car booking app, built with React.js and Bootstrap, showcases fundamental React concepts and front-end development skills. Users can browse, select, and book rental cars through a dynamic, responsive interface. React handles state management and routing, while Bootstrap provides a sleek design",
+      "My portfolio, built with React.js, features my projects and skills in a sleek design. I practiced Tailwind CSS for rapid styling, ensuring a modern and responsive layout. This portfolio demonstrates my proficiency in React.js and Tailwind CSS.",
     useTechnology: [
       {
         tech1: "../../assets/science.png",
-        tech2: "../../assets/Bootstrap.png",
+        tech2: "../../assets/Tailwind CSS.png",
       },
     ],
     urlRepo: "https://github.com/Yussha/rentalCar",
