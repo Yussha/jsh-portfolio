@@ -48,17 +48,6 @@ export default function About() {
               </a>
 
               <a
-                href="https://www.tiktok.com/@__shuy?_t=8mzWlLKCOZt&_r=1"
-                target="_blank"
-              >
-                {" "}
-                <FaTiktok
-                  className={`${styles.icons}`}
-                  style={{ cursor: "pointer" }}
-                />
-              </a>
-
-              <a
                 href="https://www.linkedin.com/in/jshbolasa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 target="_blank"
               >

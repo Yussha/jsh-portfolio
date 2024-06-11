@@ -30,17 +30,17 @@ export default function Footer() {
           className={`${styles.footerContent} flex mt-8 items-center gap-x-4 pb-10 pl-8 pr-8`}
         >
           <li>
-            <a style={{ cursor: "pointer" }} className="text-sm" href="">
+            <a style={{ cursor: "pointer" }} className="text-sm" href="#about">
               ABOUT
             </a>
           </li>
           <li>
-            <a style={{ cursor: "pointer" }} className="text-sm" href="">
+            <a style={{ cursor: "pointer" }} className="text-sm" href="#service">
               SERVICES
             </a>
           </li>
           <li>
-            <a style={{ cursor: "pointer" }} className="text-sm" href="">
+            <a style={{ cursor: "pointer" }} className="text-sm" href="#portfolio">
               PORTFOLIO
             </a>
           </li>
@@ -52,17 +52,6 @@ export default function Footer() {
             target="_blank"
           >
             <FaFacebook
-              className={`${styles.icons}`}
-              style={{ cursor: "pointer" }}
-            />
-          </a>
-
-          <a
-            href="https://www.tiktok.com/@__shuy?_t=8mzWlLKCOZt&_r=1"
-            target="_blank"
-          >
-            {" "}
-            <FaTiktok
               className={`${styles.icons}`}
               style={{ cursor: "pointer" }}
             />

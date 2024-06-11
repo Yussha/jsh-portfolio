@@ -4,11 +4,11 @@ export default function ResponsiveNavbar({
   setShowResponsiveNavbar,
 }) {
   return (
+    // ${showResponsiveNavbar ? "right-0" : "-right-1/2"
+    // }
     <nav
-      style={{ backgroundColor: "rgb(39, 39, 42)", transition: ".55s ease" }}
-      className={`h-screen w-2/4 flex flex-col fixed  top-0  z-50 p-20 ${
-        showResponsiveNavbar ? "right-0" : "-right-1/2"
-      }`}
+      style={{ backgroundColor: "rgb(39, 39, 42)" }}
+      className={`${styles.responsiveNavbar} h-fit w-full flex flex-col fixed  z-50 p-5 ease-in-out duration-300 delay-150 ${showResponsiveNavbar ? "top-0" : "-top-1/2"}`}
     >
       <div className="flex justify-end max-sm:text-xl max-sm:mb-8 mr:text-sm">
         <button onClick={() => setShowResponsiveNavbar(false)}>X</button>

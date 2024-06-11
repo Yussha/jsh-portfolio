@@ -23,7 +23,7 @@ const ContactModal = forwardRef(function ContactModal(props, ref) {
           <a
             className="flex flex-row items-center gap-x-2 text-lg mr:w-auto "
             style={{ cursor: "pointer" }}
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=bolasajoshua73@example.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=bolasajoshua73@gmail.com"
             target="_blank"
           >
             <MdEmail />
@@ -41,17 +41,7 @@ const ContactModal = forwardRef(function ContactModal(props, ref) {
             Joshua Bolasa
           </a>
         </li>
-        <li className={`${styles.icons}`}>
-          <a
-            className="flex flex-row items-center gap-x-2 text-lg"
-            style={{ cursor: "pointer" }}
-            href="https://www.tiktok.com/@__shuy?_t=8mzWlLKCOZt&_r=1"
-            target="_blank"
-          >
-            <FaTiktok />
-            __shuy
-          </a>
-        </li>
+
       </ul>
     </section>
   );
