@@ -31,25 +31,9 @@ export const projects = [
     urlWebsite: "https://yussha.github.io/rentalCar/",
 
   },
+
   {
     id: 3,
-    img: "../../assets/RentalCarimg.jpg",
-    projectName: "RentalCar Booking",
-    details:
-      "This rental car booking app, built with React.js and Bootstrap, showcases fundamental React concepts and front-end development skills. Users can browse, select, and book rental cars through a dynamic, responsive interface. React handles state management and routing, while Bootstrap provides a sleek design",
-    useTechnology: [
-      {
-        tech1: "../../assets/science.png",
-        tech2: "../../assets/Bootstrap.png",
-      },
-    ],
-    urlRepo: "https://github.com/Yussha/rentalCar",
-    urlWebsite: "https://yussha.github.io/rentalCar/",
-
-  },
-
-  {
-    id: 4,
     img: "../../assets/projectThumbnail1.jpg",
     projectName: "Project Portfolio",
     details:
@@ -69,7 +53,7 @@ export const projects = [
   },
 
   {
-    id: 5,
+    id: 4,
     img: "../../assets/StarBucksImg.jpg",
     projectName: "Starbucks Website Front-End Challenge",
     details:
@@ -86,7 +70,7 @@ export const projects = [
   },
 
   {
-    id: 6,
+    id: 5,
     img: "../../assets/WordPressTemplateImg.jpg",
     projectName: "WordPress Template Conversion Project",
     details:
