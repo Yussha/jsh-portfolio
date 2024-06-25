@@ -5,7 +5,7 @@ import { IoMenuSharp } from "react-icons/io5";
 export default function Navbar({ setShowResponsiveNavbar }) {
   return (
     <nav
-      className={`${styles.navBar} fixed left-0 right-0 top-0 z-50 sm:m-4 sm:w-screen sm:m-0 sm:p-8 lg:p-10 lg:m-0 xl:pt-10 xl:pl-40 xl:pr-40 mr:p-8`}
+      className={`${styles.navBar} fixed left-0 right-0 top-0 z-50 sm:m-4 sm:w-screen sm:m-0 sm:p-8 lg:p-10 lg:m-0 xl:pt-10 xl:pl-40 xl:pr-40 mr:pt-8 mr:pb-8 mr:pl-4 mr:pr-4`}
     >
       <a href=""></a>
       <div className="flex justify-between items-center">

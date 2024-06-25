@@ -1,5 +1,5 @@
 import jshportfolioImg from "../assets/jshportfolio.jpg";
-import rentalcarImg from "../assets/RentalCarimg.jpg";
+import shoeShopProject from "../assets/shoeShopProject.jpg";
 import projectThumbnail1 from "../assets/projectThumbnail1.jpg";
 import starBucksImg from "../assets/StarBucksImg.jpg";
 import wordPressTemplateImg from "../assets/WordPressTemplateImg.jpg";
@@ -31,18 +31,18 @@ export const projects = [
   },
   {
     id: 2,
-    img: rentalcarImg,
-    projectName: "RentalCar Booking",
+    img: shoeShopProject,
+    projectName: "E-Commerce Shoe Store",
     details:
-      "This rental car booking app, built with React.js and Bootstrap, showcases fundamental React concepts and front-end development skills. Users can browse, select, and book rental cars through a dynamic, responsive interface. React handles state management and routing, while Bootstrap provides a sleek design",
+      "This project is an e-commerce web application for selling shoes. Built with React.js and styled using Tailwind CSS, it offers a modern, responsive, and user-friendly interface. The app uses React hooks like useContext, useRef, useEffect, and useState to manage state and interactions efficiently",
     useTechnology: [
       {
         tech1: reactjs,
-        tech2: bootstrap,
+        tech2: tailwind,
       },
     ],
-    urlRepo: "https://github.com/Yussha/rentalCar",
-    urlWebsite: "https://yussha.github.io/rentalCar/",
+    urlRepo: "https://github.com/Yussha/e-commerce",
+    urlWebsite: "https://yussha.github.io/e-commerce/",
 
   },
 

@@ -13,7 +13,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className={`${styles.sectionLayout} sm:pl-12 xl:pl-40 xl:pr-40 mr:pt-20 mr:pl-8 mr:pr-8 mr:pb-10 md:pb-28 lg:pb-36 xl:pb-36`}
+      className={`${styles.sectionLayout} sm:pl-12 xl:pl-40 xl:pr-40 mr:pt-20 mr:pl-4 mr:pr-4 mr:pb-10 md:pb-28 lg:pb-36 xl:pb-36`}
     >
       <div className={`${styles.aboutContent} `}>
         <div className="flex gap-x-20 flex-col sm:gap-y-4 md:flex-row md:pr-12">

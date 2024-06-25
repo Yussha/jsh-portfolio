@@ -1,7 +1,6 @@
 import styles from "./Pages/layouts.module.css";
 
 import { FaFacebook } from "react-icons/fa";
-import { FaTiktok } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 import { forwardRef } from "react";
@@ -48,9 +47,3 @@ const ContactModal = forwardRef(function ContactModal(props, ref) {
 });
 
 export default ContactModal;
-
-// export default function ContactModal() {
-//   return (
-
-//   );
-// }
