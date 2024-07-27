@@ -3,18 +3,36 @@ import shoeShopProject from "../assets/shoeShopProject.jpg";
 import projectThumbnail1 from "../assets/projectThumbnail1.jpg";
 import starBucksImg from "../assets/StarBucksImg.jpg";
 import wordPressTemplateImg from "../assets/WordPressTemplateImg.jpg";
+import carRental from "../assets/carRental.jpg";
 import reactjs from "../assets/science.png";
 import tailwind from "../assets/Tailwind CSS.png";
 import html from "../assets/HTML5.png";
 import css from "../assets/css-3.png";
 import js from "../assets/js-file.png";
 import bootstrap from "../assets/Bootstrap.png";
-
+import redux from "../assets/redux.png";
 
 
 export const projects = [
   {
     id: 1,
+    img: carRental,
+    projectName: "Car Rental",
+    details:
+      "This site is a project where I practice my skills in React and Redux. You can browse cars, filter them by different options. It's a simple demonstration of what I can do with front end development.",
+    useTechnology: [
+      {
+        tech1: reactjs,
+        tech2: redux,
+        tech3: tailwind,
+      },
+    ],
+    urlRepo: "https://github.com/Yussha/car-rental",
+    urlWebsite: "https://yussha.github.io/car-rental/",
+  },
+
+  {
+    id: 2,
     img: jshportfolioImg,
     projectName: "Official Jsh Portfolio",
     details:
@@ -26,11 +44,9 @@ export const projects = [
       },
     ],
     urlRepo: "https://github.com/Yussha/jsh-portfolio",
-
-
   },
   {
-    id: 2,
+    id: 3,
     img: shoeShopProject,
     projectName: "E-Commerce Shoe Store",
     details:
@@ -47,7 +63,7 @@ export const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     img: projectThumbnail1,
     projectName: "Project Portfolio",
     details:
@@ -67,7 +83,7 @@ export const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
     img: starBucksImg,
     projectName: "Starbucks Website Front-End Challenge",
     details:
@@ -84,7 +100,7 @@ export const projects = [
   },
 
   {
-    id: 5,
+    id: 6,
     img: wordPressTemplateImg,
     projectName: "WordPress Template Conversion Project",
     details:

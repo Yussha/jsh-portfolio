@@ -4,6 +4,8 @@ import html from "../assets/HTML5.png";
 import css from "../assets/css-3.png";
 import js from "../assets/js-file.png";
 import bootstrap from "../assets/Bootstrap.png";
+import redux from "../assets/redux.png";
+
 
 export const techStacks = [
   {
@@ -40,5 +42,11 @@ export const techStacks = [
     id: 6,
     img: tailwind,
     techName: "Tailwind",
+  },
+
+  {
+    id: 7,
+    img: redux,
+    techName: "Redux",
   },
 ];

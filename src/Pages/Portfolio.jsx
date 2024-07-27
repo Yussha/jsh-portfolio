@@ -57,7 +57,7 @@ export default function Portfolio() {
                 ))}
 
                 <div className="flex gap-x-4">
-                  {project.id === 1 ? (
+                  {project.id === 2 ? (
                     <a href="#home" className={`${styles.viewProjectBtn} rounded-lg p-2 font-bold`}>Take a look</a>
                   ) : (
                     <button
