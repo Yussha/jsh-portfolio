@@ -85,7 +85,7 @@ export default function About() {
           <h1 className="text-2xl mb-8 sm:text-lg md:text-2xl mr:text-xl">
             TECHNOLOGY STACK
           </h1>
-          <ul className="flex gap-x-8 mr:grid mr:grid-rows-2 mr:grid-cols-3 mr:gap-8 sm:flex md:flex lg:flex xl:flex 2xl:flex">
+          <ul className="w-fit grid grid-cols-5 gap-8">
             {techStacks.map((techStack) => (
               <li
                 className="flex flex-col items-center gap-y-4"

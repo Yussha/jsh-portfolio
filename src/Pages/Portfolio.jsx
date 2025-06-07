@@ -29,11 +29,11 @@ export default function Portfolio() {
               key={project.id}
               className={`${styles.card} flex p-3 gap-x-8 rounded-lg sm:flex-col sm:gap-y-4 lg:flex-row mr:flex-col mr:gap-y-8 `}
             >
-              <div>
-                <img className="w-full  rounded-lg" src={project.img} alt="" />
+              <div class="lg:w-[60%]">
+                <img className="w-full h-full  rounded-lg" src={project.img} alt="" />
               </div>
 
-              <div>
+              <div className="lg:w-[40%]">
                 <h1 className="text-2xl mb-4">{project.projectName}</h1>
                 <p className={`${styles.paraColor} text-sm leading-7 mb-6`}>
                   {project.details}

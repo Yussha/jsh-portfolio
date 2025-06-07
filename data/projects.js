@@ -12,10 +12,33 @@ import js from "../assets/js-file.png";
 import bootstrap from "../assets/Bootstrap.png";
 import redux from "../assets/redux.png";
 
+import citportalimg from "../assets/citportal.png";
+
+import laravel from "../assets/Laravel.png"
+import database from "../assets/database.png"
+import vue from "../assets/Vuejs.png"
+
 
 export const projects = [
   {
     id: 1,
+    img: citportalimg,
+    projectName: "CIT Portal",
+    details:
+      "CIT Portal is a web-based academic management system designed to streamline tasks for students, teachers, and admins—such as posting announcements, managing grades, and viewing class schedules. Built with Laravel and Vue.js for efficiency and user-friendly experience.",
+    useTechnology: [
+      {
+        tech1: laravel,
+        tech2: database,
+        tech3: vue,
+      },
+    ],
+    urlRepo: "https://github.com/Praydchicken/CITportal.git",
+    urlWebsite: "https://citportal.site/login",
+  },
+
+  {
+    id: 2,
     img: carRental,
     projectName: "Car Rental",
     details:
@@ -32,7 +55,7 @@ export const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     img: jshportfolioImg,
     projectName: "Official Jsh Portfolio",
     details:
@@ -46,7 +69,7 @@ export const projects = [
     urlRepo: "https://github.com/Yussha/jsh-portfolio",
   },
   {
-    id: 3,
+    id: 4,
     img: shoeShopProject,
     projectName: "E-Commerce Shoe Store",
     details:
@@ -63,7 +86,7 @@ export const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
     img: projectThumbnail1,
     projectName: "Project Portfolio",
     details:
@@ -83,7 +106,7 @@ export const projects = [
   },
 
   {
-    id: 5,
+    id: 6,
     img: starBucksImg,
     projectName: "Starbucks Website Front-End Challenge",
     details:
@@ -100,7 +123,7 @@ export const projects = [
   },
 
   {
-    id: 6,
+    id: 7,
     img: wordPressTemplateImg,
     projectName: "WordPress Template Conversion Project",
     details:
