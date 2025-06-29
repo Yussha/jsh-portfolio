@@ -14,17 +14,14 @@ export default function Hero() {
         <h1
           className={` font-bold mb-5  mr:text-2xl md:w-full lg:w-full sm:text-3xl sm:w-full md:text-5xl lg:text-5xl xl:text-5xl 2xl:text-5xl`}
         >
-          <span className={styles.highlight}>FrontEnd Developer</span> in the
+          <span className={styles.highlight}>Full Stack Developer</span> in the
           Philippines{" "}
         </h1>
         <p
           className="mr:leading-8 sm:w-full md:w-full lg:w-full xl:w-3/4 2xl:w-3/4"
           style={{ color: "rgb(161 161 170" }}
         >
-          Meet Joshua Bolasa, a front-end developer passionate about creating
-          exceptional digital experiences. With expertise in HTML, CSS, and
-          JavaScript, Joshua brings designs to life, crafting visually appealing
-          and user-friendly websites that leave a lasting impact.
+          Meet Joshua Bolasa, a full-stack developer passionate about building complete and dynamic web applications. With expertise in both front-end technologies like HTML, CSS, and JavaScript, and back-end tools such as Laravel and MySQL, Joshua creates seamless user experiences backed by solid, efficient server-side logic. He crafts visually appealing, user-friendly interfaces while ensuring performance and scalability behind the scenes.
         </p>
       </div>
     </section>

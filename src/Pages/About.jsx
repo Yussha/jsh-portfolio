@@ -26,12 +26,7 @@ export default function About() {
             <p
               className={`${styles.paraColor} xl:leading-8 sm:leading-7 mr:leading-8 mr:mb-8`}
             >
-              I started learning front-end development during my second year of
-              college. I became interested in building websites and decided to
-              teach myself how to code and create cool websites. Over the years,
-              I have continued to learn and practice by creating websites using
-              new frameworks and techniques. It's an ongoing journey of growth
-              and exploration in the world of web development.
+              I started learning front-end development during my second year of college. I became interested in building websites and took the initiative to teach myself how to code and design interactive web interfaces. As I continued learning, I began exploring full-stack development especially during my capstone project, where I built a complete web application using Laravel and MySQL. That hands-on experience helped me understand both the front-end and back-end workflow, and it sparked a deeper passion for creating fully functional, end-to-end web solutions. My journey is still ongoing as I continue to grow and explore new tools and technologies in the world of web development.
             </p>
           </div>
           <div className="flex flex-col items-center sm:items-start">
