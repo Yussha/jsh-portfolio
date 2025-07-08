@@ -9,6 +9,7 @@ import php from "../assets/php.png"
 import laravel from "../assets/Laravel.png"
 import database from "../assets/database.png"
 import vue from "../assets/Vuejs.png"
+import ts from "../assets/typescript.png"
 
 export const techStacks = [
   {
@@ -76,4 +77,10 @@ export const techStacks = [
     img: vue,
     techName: "Vue JS",
   },
+  {
+    id: 12,
+    img: ts,
+    techName: "TypeScript",
+  },
+
 ];
